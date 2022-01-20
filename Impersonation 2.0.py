@@ -23,11 +23,11 @@ start = time.time()
 print()
 for i in (Impersonators):
     i=i.lower()
-    if i.endswith('@oracle.com')==False:
+    if i.endswith('@domain.com')==False:
         Invalid_users.append(i)
 for i in (Impersonating):
     i=i.lower()
-    if i.endswith('@oracle.com')==False:
+    if i.endswith('@domain.com')==False:
         Invalid_users.append(i)
 
 
